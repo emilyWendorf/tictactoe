@@ -1,0 +1,63 @@
+body {
+    background-image: url("lobster.png");
+    font: 200% "Helvetica", Futura, sans-serif;
+    font-weight:700;
+    color:black;
+    text-align:center;
+    margin-left:30%;
+    margin-top:5%;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+
+  .game-board {
+    border:10px white solid;
+    padding:20px;
+    border-radius:25px;
+    background-color:rgb(175,175,225)
+  }
+
+  .square {
+    background: white;
+    border: 4px solid red;
+    float: left;
+    font-size: 500%;
+    line-height: 100%;
+    height: 150px;
+    margin-right: -4px;
+    margin-top: -4px;
+    padding: 0;
+    text-align: center;
+    color: palevioletred;
+    width: 150px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
